@@ -1,0 +1,43 @@
+{
+  "name": "html5starter",
+  "version": "1.0.0",
+  "description": "HTML5 Starter",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asif-mahmud/html5-starter.git"
+  },
+  "keywords": [
+    "HTML5 Starter",
+    "Website Template"
+  ],
+  "author": "Asif Mahmud Shimon",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/asif-mahmud/html5-starter/issues"
+  },
+  "homepage": "https://github.com/asif-mahmud/html5-starter#README",
+  "dependencies":{
+    "gulp": "*",
+    "require-dir": "*",
+    "gulp-order": "*",
+    "gulp-concat": "*",
+    "gulp-sass": "*",
+    "autoprefixer": "*",
+    "gulp-postcss": "*",
+    "postcss-flexboxfixer": "*",
+    "gulp-clean-css": "*",
+    "gulp-uglify": "*",
+    "gulp-load-plugins": "*",
+    "gulp-rename": "*",
+    "gulp-replace": "*",
+    "gulp-jshint": "*",
+    "gulp-clean": "*",
+    "run-sequence": "*",
+    "jshint": "*",
+    "jshint-stylish": "*",
+    "browser-sync": "*"
+  }
+}
