@@ -1,3 +1,5 @@
+![Image not found](imgages/html5-starter.logo.png)
+
 # html5-starter
 
 A comprehensive and production ready **HTML5 Template** for web developers.
