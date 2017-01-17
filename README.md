@@ -1,4 +1,4 @@
-![Image not found](imgages/html5-starter.logo.png)
+![Image not found](images/html5-starter.logo.png)
 
 # html5-starter
 
