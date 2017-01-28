@@ -8,12 +8,12 @@
 {%- if cookiecutter.git_repo %}
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/{{cookiecutter.git_repo}}.git"
+    "url": "git+https://{{cookiecutter.git_host}}/{{cookiecutter.git_repo}}.git"
   },
   "bugs": {
-    "url": "https://github.com/{{cookiecutter.git_repo}}/issues"
+    "url": "https://{{cookiecutter.git_host}}/{{cookiecutter.git_repo}}/issues"
   },
-  "homepage": "https://github.com/{{cookiecutter.git_repo}}#README",
+  "homepage": "https://{{cookiecutter.git_host}}/{{cookiecutter.git_repo}}#README",
 {% endif %}
   "keywords": [
     "{{cookiecutter.project_name}}",
