@@ -17,9 +17,8 @@ gulp.task('build:sass', function () {
             prefix({browsers: ["> 0%"]})
         ]))
         .pipe(plugin.rename('style.css'))
-        .pipe(gulp.dest(helper.root('src', 'dist', 'css')))
+        .pipe(gulp.dest(helper.root('dist', 'dist', 'css')))
         .pipe(minify({compatibility: 'ie8'}))
         .pipe(plugin.rename('style.min.css'))
-        .pipe(gulp.dest(helper.root('dist', 'dist', 'css')))
-        .pipe(gulp.dest(helper.root('src','dist', 'css')));
+        .pipe(gulp.dest(helper.root('dist', 'dist', 'css')));
 });

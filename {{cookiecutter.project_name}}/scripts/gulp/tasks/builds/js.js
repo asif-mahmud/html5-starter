@@ -16,11 +16,10 @@ gulp.task('minify:js', function () {
             helper.root('src', 'jssrc', '**/*')
         ]))
         .pipe(concat('bundle.js'))
-        .pipe(gulp.dest(helper.root('src', 'dist', 'js')))
+        .pipe(gulp.dest(helper.root('dist', 'dist', 'js')))
         .pipe(uglify({
             mangle : { toplevel : true}
         }))
         .pipe(plugin.rename('main.min.js'))
-        .pipe(gulp.dest(helper.root('dist', 'dist', 'js')))
-        .pipe(gulp.dest(helper.root('src', 'dist', 'js')));
+        .pipe(gulp.dest(helper.root('dist', 'dist', 'js')));
 });

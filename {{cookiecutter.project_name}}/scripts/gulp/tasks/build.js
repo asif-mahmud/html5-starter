@@ -8,6 +8,9 @@ gulp.task('build', [
     'minify:js',
 
     /* Build the stylesheet */
-    'build:sass'
+    'build:sass',
+
+    /* Copy Misc files */
+    'copy:misc'
     ]
 );

@@ -7,7 +7,6 @@ var helper = require('../../helpers.js');
 
 gulp.task('clean', function () {
     return gulp.src([
-        helper.root('dist'),
-        helper.root('src', 'dist')
+        helper.root('dist')
     ]).pipe(rmdir());
 });

@@ -5,5 +5,5 @@ var gulp = require('gulp');
 var helper = require('../../../helpers.js');
 
 gulp.task('watch:sass', function () {
-    gulp.watch(helper.root('src', 'sass', '**/*'), ['build:sass']);
+    gulp.watch( '**/*', { cwd : helper.root('src', 'sass') }, ['build:sass']);
 });

@@ -6,6 +6,6 @@ var helper = require('../../../helpers.js');
 
 gulp.task('watch:js', function () {
     /* Add more watches as new apps are included */
-    gulp.watch(helper.root('src', 'jssrc', '**/*'), ['minify:js']);
+    gulp.watch( '**/*', { cwd : helper.root('src', 'jssrc') } , ['minify:js']);
 });
 

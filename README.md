@@ -41,6 +41,10 @@ Open terminal inside `html5-starter` folder and run -
 
 ## Version History
 
+### Version 1.5.0
+
+- `Gulp` scripts fixed.
+
 ### Version 1.0.0
 
 - Using `cookiecutter` for project creation.
