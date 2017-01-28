@@ -1,25 +1,28 @@
 {
-  "name": "html5starter",
-  "version": "1.0.0",
-  "description": "HTML5 Starter",
+  "name": "{{cookiecutter.project_name}}",
+  "version": "{{cookiecutter.project_version}}",
+  "description": "{{cookiecutter.project_description}}",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+{%- if cookiecutter.git_repo %}
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/asif-mahmud/html5-starter.git"
+    "url": "git+https://github.com/{{cookiecutter.git_repo}}.git"
   },
-  "keywords": [
-    "HTML5 Starter",
-    "Website Template"
-  ],
-  "author": "Asif Mahmud Shimon",
-  "license": "GPL-2.0",
   "bugs": {
-    "url": "https://github.com/asif-mahmud/html5-starter/issues"
+    "url": "https://github.com/{{cookiecutter.git_repo}}/issues"
   },
-  "homepage": "https://github.com/asif-mahmud/html5-starter#README",
-  "dependencies":{
+  "homepage": "https://github.com/{{cookiecutter.git_repo}}#README",
+{% endif %}
+  "keywords": [
+    "{{cookiecutter.project_name}}",
+    "{{cookiecutter.project_description}}"
+  ],
+  "author": "{{cookiecutter.author}}",
+  "license": "GPL-2.0",
+  "dependencies": {},
+  "devDependencies":{
     "gulp": "*",
     "require-dir": "*",
     "gulp-order": "*",

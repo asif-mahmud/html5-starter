@@ -1,5 +1,5 @@
 /**
- * Created by shimon on 1/2/17.
+ * Created by {{cookiecutter.author}} {% now 'utc' %}.
  */
 var requireDir = require('require-dir');
 requireDir('./scripts/gulp/tasks', { recurse: true });

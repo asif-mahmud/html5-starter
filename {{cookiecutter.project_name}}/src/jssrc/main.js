@@ -1,5 +1,5 @@
 /**
- * Created by shimon on 1/11/17.
+ * Created by {{cookiecutter.author}} {% now 'utc' %}.
  */
 document.addEventListener('DOMContentLoaded', function () {
     animateLogo();

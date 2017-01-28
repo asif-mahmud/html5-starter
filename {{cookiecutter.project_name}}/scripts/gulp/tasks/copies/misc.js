@@ -1,12 +1,12 @@
 /**
- * Created by shimon on 1/11/17.
+ * Created by {{cookiecutter.author}} {% now 'utc' %}.
  */
 var gulp = require('gulp');
 var helper = require('../../../helpers.js');
 
-gulp.task('watch:misc', function () {
-    // Watch other file changes
-    return gulp.watch([
+gulp.task('copy:misc', function () {
+    //Copy all files except dist, jssrc, sass
+    return gulp.src([
         helper.root('src', '**/*'),
         '!' + helper.root('src', 'dist', '**/*'),
         '!' + helper.root('src', 'jssrc', '**/*'),
@@ -14,5 +14,6 @@ gulp.task('watch:misc', function () {
         '!' + helper.root('src', 'dist'),
         '!' + helper.root('src', 'jssrc'),
         '!' + helper.root('src', 'sass')
-    ], ['copy:misc']);
+    ])
+        .pipe(gulp.dest(helper.root('dist')));
 });

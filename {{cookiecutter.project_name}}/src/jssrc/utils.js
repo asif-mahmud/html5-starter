@@ -1,5 +1,5 @@
 /**
- * Created by shimon on 1/17/17.
+ * Created by {{cookiecutter.author}} {% now 'utc' %}.
  */
 var addClass = function (el, cls) {
     if(el.classList){

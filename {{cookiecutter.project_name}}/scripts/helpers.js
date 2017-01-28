@@ -1,5 +1,5 @@
 /**
- * Created by shimon on 12/28/16.
+ * Created by {{cookiecutter.author}} {% now 'utc' %}.
  */
 var path = require('path');
 
