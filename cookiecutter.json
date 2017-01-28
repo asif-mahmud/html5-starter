@@ -4,6 +4,7 @@
   "project_description" : "A Tiny HTML5 Website",
   "author": "Asif Mahmud Shimon",
   "email": "ams.eee09@gmail.com",
+  "git_host": ["github.com", "gitlab.com"],
   "git_repo": "",
   "project_name" : "{{cookiecutter.project|lower|replace(' ', '-')}}"
 }
