@@ -41,6 +41,10 @@ Open terminal inside `html5-starter` folder and run -
 
 ## Version History
 
+### Version 2.0.0
+
+- Refined major version.
+
 ### Version 1.5.0
 
 - `Gulp` scripts fixed.
